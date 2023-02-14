@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(15,93,195);
+    height: 40px;
+    padding: 10px;
+    border-bottom: 3px solid black;
+    
+}
+.nav-1 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    display: flex;
+   
+    gap: 30px;
+    position: relative;
+    left: 450px;
+    
+    
+}
+
+.nav-1 ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    
+}
+.nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.nav-2 img{
+    
+    width: 100px;
+    height: 50px;
+    
+}
+.logo-1 p{
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    color: rgb(7, 7, 82);
+    font-weight: 600;
+    
+}
+.logo-1{
+    position: relative;
+    right: 200px;
+    
+}
+.nav-2 ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    left: 200px;
+    
+}
+.nav-2 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    
+}
+.home{
+    font-weight: 800;
+    text-decoration: underline;
+}
+.about{
+    height: 600px;
+    background-image: url("./skciapl-img/hero-banner.jpg");
+}
+.about{
+    display: flex;
+    position: relative;
+    
+}
+.sebi{
+    display: flex;
+    position: relative;
+    top: 200px;
+    color: white;
+    gap: 30px;
+}
+
+.heading-1 h2{
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+}
+.heading-1 h1{
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    bottom: 15px;
+}
+
+.one{
+    font-size: 100px;
+    position: relative;
+    bottom:20px;
+    
+}
+.one i{
+   font-size: 150px;
+   font-weight: bolder;
+   position: relative;
+   bottom: 19px;
+}
+.heading-3 h2{
+    font-size: 30px;
+    position: relative;
+    top: 1px;
+    
+   
+}
+.heading-3 h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 15px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    right:550px;
+    color: white;
+    
+}
+
+.info p{
+    font-size: 12px;
+    font-weight: 200;
+}
+.v{
+    width: 5px;
+    background-color: white;
+    height: 80px;
+    position: relative;
+    right: 270px;
+    top: 85px;
+}
+.third{
+    position: relative;
+
+}
+.four{
+    position: relative;
+   
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.welcome{
+   position: relative;
+   padding: 5px;
+   border-radius: 7px;
+   top: 150px;
+   left: 140px;
+    width: 140px;
+    height: 30px;
+    background-color: white;
+}
+.welcome p{
+    font-size: 12px;
+    color: rgb(15,93,195);
+    text-align: center;
+    /* background-color: */
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 1085px;
+    gap: 18px;
+    top: 160px;
+    
+}
+.btn button{
+    width: 140px;
+    height: 40px;
+    font-size: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn-1{
+    background-color: #fff;
+    color: rgb(15,93,195);
+   border-style: none;
+  
+}
+.btn-2{
+    background: transparent;
+   border: 2px solid white;
+    color: white;
+}
+.hero2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.why{
+    position: relative;
+    text-align: center;
+
+}
+.why h1{
+    color:rgb(15,93,195);
+}
+.line{
+    width: 100px;
+   background-color:rgb(15,93,195);
+    height: 2px; 
+   position: relative;
+   left:620px;
+   top: 1px;
+}
+.card-why{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: 50px;
+}
+.why-descrip{
+    margin-top: 20px;
+}
+.why-descrip p{
+    color: gray;
+}
+.card-why1 img{
+    width: 50px;
+}
+.card-why1 p{
+    font-size: 12px;
+}
+.card-why1{
+    
+    padding: 20px;
+    width: 300px;
+    height: 180px;
+    box-shadow: 2px 2px 2px rgb(210, 205, 205),-2px -2px 2px rgb(209, 201, 201);
+    border-radius: 8px;
+}
+.about-us{
+    background-image: url("./skciapl-img/about-bg.png");
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    height: 600px;
+}
+.about-img img{
+  width: 700px;
+    position: relative;
+    right: 350px;
+    top: 100px;
+}
+.about-content{
+   
+    position: relative;
+    bottom: 280px;
+    left: 220px;
+    background-color: white;
+    width: 650px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(213, 208, 208),-3px -3px  3px rgb(207, 198, 198);
+    
+}
+.about-para{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.about-para p{
+    color: gray;
+    
+}
+.about-heading{
+    position: relative;
+    left: 10px;
+}
+.line2{
+    width:90px;
+    background-color: blue;
+    height: 1.5px;
+
+}
+.more{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+
+}
+.more p{
+    color:rgb(15,93,195) ;
+}
+.more img{
+    position: relative;
+    top: 5px;
+    width: 30px;
+    height: 12px;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+.card-services{
+    position: relative;
+    top: 230px;
+  
+   left: 300px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-services1{
+    background-color:white;
+   box-shadow: 1px 1px 1px rgb(201, 201, 201),-1px -1px 1px rgb(206, 206, 206);
+   width: 220px;
+   height: 180px;
+   position: relative;
+   bottom: 60px;
+   right: 560px;
+   padding: 20px;
+   border-radius:10px;
+   
+}
+.card-services1 h3{
+    color:rgb(15,93,195) ;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+.para-services p{
+    width: 90vw;
+    position: relative;
+    left:1000px;
+    font-size: 18px;
+    color: gray;
+    
+}
+.service-head{
+    position: relative;
+   left: 1000px;
+   bottom: 20px;
+   color:rgb(15,93,195) ;
+}
+.service-head h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.line4{
+    width: 90px;
+    height: 2px;
+    background-color:  rgb(15,93,195) ;
+    position: relative;
+    left: 640px;
+}
+.card-sevices2{
+    position: relative;
+    display: flex;
+    right: 880px;
+    gap: 20px;
+    position: relative;
+    top: 430px;
+}
+.partner-program{
+    background-image: url("./skciapl-img/program-bg.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+}
+.partner-left h1{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color:rgb(15,93,195) ;
+    font-size: 30px;
+}
+.partner-left p {
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    font-size: 13px;
+}
+.partner-left{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    height: 350px;
+    padding: 30px;
+    position: relative;
+    left: 130px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white,-2px -2px 2px white;
+}
+.partner-right img{ 
+    width: 800px;
+
+}
+.connect{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+.connect h4{
+    color:rgb(15,93,195) ;
+}
+.line5{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(15,93,195) ;
+    position: relative;
+    left: 10px;
+}
+.companies{
+    position: relative;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.companies-head{
+    position: relative;
+    top: 630px;
+    left: 500px;
+    color: rgb(15,93,195) ;
+}
+.line6{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(15,93,195) ;
+    position: relative;
+    top: 630px;
+    left: 650px;
+}
+.companies-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   padding: 20px;
+   width: 700px;
+    background-color:white;
+    position: relative;
+    right: 30px;
+}
+.companies-right img{
+    height: 500px;
+    width: 700px;
+}
+.testimonials{
+    color: rgb(15,93,195) ;
+}
+.testimonials-para{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.testi-more{
+    display: flex;
+    gap: 10px;
+}
+.testi-more h4{
+    font-size: 15px;
+    color: rgb(15,93,195) ;
+}
+.testimonials-para p{
+    color: gray;
+}
+
+.our-clients{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 500px;
+    
+    height: 400px;
+    
+}
+.our-clients h1{
+    position: relative;
+    top: 100px;
+    left: 700px;
+    color: rgb(15,93,195) ;
+    font-size: 30px;
+}
+.line-10{
+    position: relative;
+    left: 300px;
+    width: 100px;
+    height: 2px;
+    background-color:rgb(15,93,195) ;
+}
+
+.clients-card{
+    
+    width: 150px;
+    height: 100px;
+    box-shadow: 2px 2px 2px rgb(236, 220, 220) ,-2px -2px 2px rgb(247, 226, 226);
+    position: relative;
+    top: 200px;
+    right: 100px;
+}
+.right-arrow{
+    width: 52px;
+    height: 16px;  
+    position: relative;
+    top: 240px; 
+    right: 100px; 
+}
+.left-arrow{
+    width: 52px;
+    height: 16px;
+    position: relative;
+    top: 250px;
+    right: 100px;
+}
+.footer{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+    background-image: url("./skciapl-img/Footer_Image.png");
+    position: relative;
+    top: 500px;
+    height: 350px;
+    
+    color: white;
+}
+.right-footer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    top: 3px;
+}
+.right-footer img{
+    width:150px;
+    height: 120px;
+    position: relative;
+    right: 100px;
+}
+.right-footer p{
+    font-size: 13px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    right: 30px;
+}
+.fa-facebook{
+    color: rgb(17, 17, 234);
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-instagram{
+    color: rgba(255, 1, 1, 0.845);
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-linkedin{
+    color: rgb(53, 24, 218);
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-twitter{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-envelope{
+    color: rgb(232, 7, 7);
+    font-size: 20px;
+    font-weight: 600;
+}
+.middle-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left:100px;
+}
+
+.middle-left-right{
+    display: flex;
+    gap: 40px;
+}
+.middle-left-right{
+    font-size: 15px;
+}
+.middle-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+.middle-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+.second-last ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.second-last ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.second-last{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.last-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+.input input{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+}
+.input i{
+    position: relative;
+    top: 8px;
+    font-size: 35px;
+}
+.or{
+    position: relative;
+    left: 140px;
+}
+.footer-btn{
+    display: flex;
+    gap: 20px;
+}
+.footer-btn button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+.phone-number{
+    display: flex;
+    gap: 10px;
+}
+.phone-number i{
+    position: relative;
+    top: 3px;
+}
